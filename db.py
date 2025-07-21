@@ -2,7 +2,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 from bson import ObjectId
 import os
 
-MONGO_URI = os.getenv(mongodb+srv://mdhasmatullah13:<db_password>@cluster0.tymhcnx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
+MONGO_URI = os.getenv(mongodb+srv://mdhasmatullah13:<mdhasmatullah13>@cluster0.tymhcnx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 DATABASE_NAME = "hro_fastapi"
 
 client = AsyncIOMotorClient(MONGO_URI)
